@@ -1,16 +1,48 @@
-# React + Vite
+Access the project at:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr />
 
-Currently, two official plugins are available:
+# Meal Finder - Find new recipes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A responsible and customizable react-based web application for finding new meal recipes.
 
-## React Compiler
+<hr />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<h4> 🧰 Stack: </h4>
+<p>
+    <img src="https://skillicons.dev/icons?i=nodejs,npm,javascript,react,styledcomponents,vscode,git" />
+</p>
 
-## Expanding the ESLint configuration
+<hr/>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# How to run the project locally?
+
+### 1. Clone the repository
+
+In the git terminal, navigate to the directory where you want to save the project.
+
+```bash
+cd path/where/you/want/to/save/the/project
+```
+
+Then, clone the repo:
+
+```bash
+git clone https://github.com/felipe-b-ribeiro/Meal-Finder
+```
+### 2. Install Dependencies
+
+In VS Code terminal with the project open, type:
+
+```bash
+npm i
+```
+
+### 3. Run the project
+
+In VS Code terminal, type:
+
+```bash
+npm run dev
+```
+
