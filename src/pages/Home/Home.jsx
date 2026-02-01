@@ -39,6 +39,7 @@ const Home = () => {
   };
 
   if (categLoad) return <Loader />;
+  if (!mealData || !categData) return <Loader />;
   if (mealError || categError)
     return <h1>Erro inesperado no servidor - 500</h1>;
 
